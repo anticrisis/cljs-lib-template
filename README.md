@@ -6,6 +6,9 @@ I expect this basic tooling will come in handy for building business logic libra
 
 ## Dependencies
 - `npm`
+  - Development dependencies:
+  - `shelljs`
+  - `minimist`
 
 That's all. No Leinengen, Boot, Grunt, Babel, and who knows what else.
 
@@ -21,6 +24,7 @@ For fun, read [How it feels to learn JavaScript in 2016](https://hackernoon.com/
 
 3. Type
 ```
+npm install
 npm run release
 ```
 
