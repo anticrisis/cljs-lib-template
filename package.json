@@ -1,0 +1,16 @@
+{
+  "name": "cljs-lib-template",
+  "version": "0.1.0",
+  "description": "Template for ClojureScript library code intended for JavaScript consumers",
+  "main": "my_lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "node cljs-support/build-release.js my_lib out/main.js --cd cljs-support -h wrap-header.txt -f wrap-footer.txt -o out/my_lib.js"
+  },
+  "author": "Anticrisis",
+  "license": "MIT",
+  "devDependencies": {
+    "minimist": "^1.2.0",
+    "shelljs": "^0.7.8"
+  }
+}
